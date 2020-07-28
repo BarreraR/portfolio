@@ -16,14 +16,14 @@ header{
 /* header settings */
 h1 {
     padding-top: 20px;
-    margin: 0px;
+    margin: 0;
     font-family: 'Courier New', Courier, monospace;
     font-size: 36px;
 }
 
 h3{
     font-size: 18px;
-    margin: 0px 0px 10px 0px; 
+    margin: 0 0 10px 0; 
 }
 
 h2, h3{
@@ -50,10 +50,28 @@ article img {
 }
 
 footer p {
-    padding: 10px 0px;
-    margin-bottom: 0px;
+    padding: 10px 0;
+    margin-bottom: 0;
 }
 
+/* link psudo classes */
+a:link{
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited{
+    color: purple;
+}
+
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+a:active {
+    color: red;
+}
 
 /* navigation bar settings */
 .navbar {
@@ -82,23 +100,4 @@ footer p {
 }
 .navbar:active {
     color: cyan;
-}
-
-/* link psudo classes */
-a:link{
-    color: blue;
-    text-decoration: none;
-}
-
-a:visited{
-    color: purple;
-}
-
-a:hover {
-    color: green;
-    text-decoration: underline;
-}
-
-a:active {
-    color: red;
 }
