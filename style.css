@@ -68,6 +68,7 @@ footer p {
 .navbar:hover {
     color: green;
     background-color: lightgray;
+    text-decoration: none;
     transform: scale(1.2);
     border: solid;
 }
