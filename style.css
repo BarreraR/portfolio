@@ -1,21 +1,26 @@
+/* Sets background color of entire page */
 body {
     background: lightgray;
 }
 
+/* header and footer background and text color */
 header, footer {
     background: darkslategrey;
     color: white;
 }
+
 header{
     padding-bottom: 10px;
 }
 
+/* header settings */
 h1 {
     padding-top: 20px;
     margin: 0px;
     font-family: 'Courier New', Courier, monospace;
     font-size: 36px;
 }
+
 h3{
     font-size: 18px;
     margin: 0px 0px 10px 0px; 
@@ -28,10 +33,13 @@ h2, h3{
 header, footer, h2{
     text-align: center;
 }
+
+/* sets width of all images */
 img {
     width: 400px;
 }
 
+/* sets width of main content */
 main {
     width: 400px;
     margin: auto;
@@ -47,7 +55,7 @@ footer p {
 }
 
 
-
+/* navigation bar settings */
 .navbar {
     display: inline-block;
     padding: 5px 10px;
@@ -76,6 +84,7 @@ footer p {
     color: cyan;
 }
 
+/* link psudo classes */
 a:link{
     color: blue;
     text-decoration: none;
