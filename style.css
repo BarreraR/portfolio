@@ -95,7 +95,7 @@ a:active {
     color: green;
     background-color: lightgray;
     text-decoration: none;
-    transform: scale(1.5);
+    transform: scale(1.2);
     border: solid;
 }
 .navbar:active {
