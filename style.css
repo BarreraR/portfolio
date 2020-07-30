@@ -92,7 +92,7 @@ a:active {
 }
 
 .navbar:hover {
-    color: lightgreen;
+    color: pink;
     background-color: lightgray;
     text-decoration: none;
     transform: scale(1.2);
